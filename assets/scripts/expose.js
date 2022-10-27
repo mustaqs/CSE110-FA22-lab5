@@ -10,7 +10,7 @@ function init() {
   const selectButton = document.querySelector('button');
   const selectVolume = document.getElementById("volume");
   const icon = document.querySelector('img[alt="Volume level 2"]');  
-  
+
   selectOption.addEventListener('change', e =>
   {
     var option = e.target.value;
